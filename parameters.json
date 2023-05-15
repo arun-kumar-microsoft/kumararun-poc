@@ -1,0 +1,23 @@
+{
+  "clusterName": {
+    "value": "hc1n22r1732-akscluster02"
+  },
+  "clusterLocation": {
+    "value": "eastus"  
+  },
+  "symphonyName": {
+    "value": "symphony-2"
+  },
+  "installNamespace": {
+    "value": "default"
+  },
+  "customLocationName": {
+    "value": "jd-hc1n22r1732-akscluster02-cl"
+  },
+  "customLocationNamespace": {
+    "value": "jd-hc1n22r1732-akscluster02-cl"
+  },
+  "targetName": {
+    "value": "jd-hc1n22r1732-akscluster02-hello-world"  
+  }
+}
