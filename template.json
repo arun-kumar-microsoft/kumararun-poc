@@ -52,7 +52,7 @@
             "releaseNamespace": "[parameters('installNamespace')]"
           }
         },
-        "version": "0.43.10",
+        "version": "0.43.11",
         "releaseTrain": "dev",
         "configurationSettings": {
           "Microsoft.CustomLocation.ServiceAccount": "default"
