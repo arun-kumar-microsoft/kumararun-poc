@@ -1,6 +1,6 @@
 {
   "clusterName": {
-    "value": "hc1n22r1732-akscluster02"
+    "value": "rr0904-akscluster02"
   },
   "clusterLocation": {
     "value": "eastus"  
@@ -12,12 +12,12 @@
     "value": "default"
   },
   "customLocationName": {
-    "value": "jd-hc1n22r1732-akscluster02-cl"
+    "value": "ak-rr0904-akscluster02-cl"
   },
   "customLocationNamespace": {
-    "value": "jd-hc1n22r1732-akscluster02-cl"
+    "value": "ak-rr0904-akscluster02-cl"
   },
   "targetName": {
-    "value": "jd-hc1n22r1732-akscluster02-hello-world"  
+    "value": "ak-rr0904-akscluster02-hello-world"  
   }
 }
