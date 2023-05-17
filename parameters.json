@@ -1,6 +1,6 @@
 {
   "clusterName": {
-    "value": "connected-jiadu-symphony-aks"
+    "value": "rr0904-akscluster02"
   },
   "clusterLocation": {
     "value": "eastus"  
@@ -12,12 +12,12 @@
     "value": "default"
   },
   "customLocationName": {
-    "value": "ak-connected-jiadu-symphony-aks-clnew"
+    "value": "ak-rr0904-akscluster02-cl"
   },
   "customLocationNamespace": {
-    "value": "ak-connected-jiadu-symphony-aks-clnew"
+    "value": "ak-rr0904-akscluster02-cl"
   },
   "targetName": {
-    "value": "ak-connected-jiadu-symphony-aks-17may"  
+    "value": "ak-rr0904-akscluster02-17may"  
   }
 }
