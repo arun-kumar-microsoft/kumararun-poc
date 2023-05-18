@@ -1,9 +1,9 @@
 {
   "clusterName": {
-    "value": "k8s-cluster-13f6afc3f7e54ac8a5cdfaa1fcae80e7"
+    "value": "kubernetes-cluster-13f6afc3f7"
   },
   "clusterLocation": {
-    "value": "westeurope"  
+    "value": "eastus"  
   },
   "symphonyName": {
     "value": "symphony-2"
@@ -12,12 +12,12 @@
     "value": "default"
   },
   "customLocationName": {
-    "value": "ak-k8s-cluster-13f6afc3f7e54ac8a5cdfaa1fcae80e7-cl"
+    "value": "ak-kubernetes-cluster-13f6afc3f7-cl"
   },
   "customLocationNamespace": {
-    "value": "ak-k8s-cluster-13f6afc3f7e54ac8a5cdfaa1fcae80e7-cl"
+    "value": "ak-kubernetes-cluster-13f6afc3f7-cl"
   },
   "targetName": {
-    "value": "ak-k8s-cluster-13f6afc3f7e54ac8a5cdfaa1fcae80e7-18May"  
+    "value": "ak-kubernetes-cluster-13f6afc3f7-18May"  
   }
 }
