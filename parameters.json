@@ -1,9 +1,9 @@
 {
   "clusterName": {
-    "value": "rr0904-akscluster02"
+    "value": "k8s-cluster-13f6afc3f7e54ac8a5cdfaa1fcae80e7"
   },
   "clusterLocation": {
-    "value": "eastus"  
+    "value": "westeurope"  
   },
   "symphonyName": {
     "value": "symphony-2"
@@ -12,12 +12,12 @@
     "value": "default"
   },
   "customLocationName": {
-    "value": "ak-rr0904-akscluster02-cl"
+    "value": "ak-k8s-cluster-13f6afc3f7e54ac8a5cdfaa1fcae80e7-cl"
   },
   "customLocationNamespace": {
-    "value": "ak-rr0904-akscluster02-cl"
+    "value": "ak-k8s-cluster-13f6afc3f7e54ac8a5cdfaa1fcae80e7-cl"
   },
   "targetName": {
-    "value": "ak-rr0904-akscluster02-17may"  
+    "value": "ak-k8s-cluster-13f6afc3f7e54ac8a5cdfaa1fcae80e7-18May"  
   }
 }
