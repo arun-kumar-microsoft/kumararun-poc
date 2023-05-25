@@ -3,7 +3,7 @@
     "value": "kumararun-may25-k8s"
   },
   "clusterLocation": {
-    "value": "eastus"  
+    "value": "eastus"
   },
   "symphonyName": {
     "value": "symphony-2"
@@ -18,7 +18,7 @@
     "value": "ak-kumararun-may25-k8s-cl"
   },
   "targetName": {
-    "value": "ak-kumararun-may25-k8s-v1"  
+    "value": "ak-kumararun-may25-k8s-v1"
   },
   "update.broker.address": {
     "value": "tcp://20.237.111.59:1883"

@@ -32,7 +32,7 @@
     "customLocationNamespace": {
       "type": "string"
     },
-	"update.broker.address": {
+    "update.broker.address": {
       "type": "string"
     }
   },
@@ -61,7 +61,7 @@
           "Microsoft.CustomLocation.ServiceAccount": "default"
         }
       },
-      "scope":   "[concat('Microsoft.Kubernetes/connectedClusters/', parameters('clusterName'))]"
+      "scope": "[concat('Microsoft.Kubernetes/connectedClusters/', parameters('clusterName'))]"
     },
     {
       "type": "Microsoft.ExtendedLocation/customLocations",
