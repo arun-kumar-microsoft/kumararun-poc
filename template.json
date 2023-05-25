@@ -31,6 +31,9 @@
     },
     "customLocationNamespace": {
       "type": "string"
+    },
+	"update.broker.address": {
+      "type": "string"
     }
   },
   "variables": {
@@ -52,7 +55,7 @@
             "releaseNamespace": "[parameters('installNamespace')]"
           }
         },
-        "version": "0.43.10",
+        "version": "0.43.11",
         "releaseTrain": "dev",
         "configurationSettings": {
           "Microsoft.CustomLocation.ServiceAccount": "default"
@@ -87,28 +90,27 @@
         "type": "CustomLocation"
       },
       "properties": {
+        "components": [
+          {
+            "name": "[parameters('targetName')]",
+            "type": "update",
+            "properties": {
+              "app.package": "update",
+              "version": "10.2307.0.1"
+            }
+          }
+        ],
         "topologies": [
           {
             "bindings": [
               {
-                "role": "instance",
-                "provider": "providers.target.k8s",
+                "role": "update",
+                "provider": "providers.target.mqtt",
                 "config": {
-                  "inCluster": "true"
-                }
-              },
-              {
-                "role": "helm.v3",
-                "provider": "providers.target.helm",
-                "config": {
-                  "inCluster": "true"
-                }
-              },
-              {
-                "role": "yaml.k8s",
-                "provider": "providers.target.kubectl",
-                "config": {
-                  "inCluster": "true"
+                  "brokerAddress": "[parameters('update.broker.address')]",
+                  "requestTopic": "symphony-request",
+                  "responseTopic": "symphony-response",
+                  "timeoutSeconds": "300"
                 }
               }
             ]

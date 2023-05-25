@@ -1,6 +1,6 @@
 {
   "clusterName": {
-    "value": "hc1n22r1732-akscluster02"
+    "value": "kumararun-may25-k8s"
   },
   "clusterLocation": {
     "value": "eastus"  
@@ -12,12 +12,15 @@
     "value": "default"
   },
   "customLocationName": {
-    "value": "jd-hc1n22r1732-akscluster02-cl"
+    "value": "ak-kumararun-may25-k8s-cl"
   },
   "customLocationNamespace": {
-    "value": "jd-hc1n22r1732-akscluster02-cl"
+    "value": "ak-kumararun-may25-k8s-cl"
   },
   "targetName": {
-    "value": "jd-hc1n22r1732-akscluster02-hello-world"  
+    "value": "ak-kumararun-may25-k8s-v1"  
+  },
+  "update.broker.address": {
+    "value": "tcp://20.237.111.59:1883"
   }
 }
