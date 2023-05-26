@@ -6,7 +6,7 @@
     "value": "eastus"  
   },
   "symphonyName": {
-    "value": "symphony-2"
+    "value": "symphony-may26"
   },
   "installNamespace": {
     "value": "default"
@@ -18,7 +18,7 @@
     "value": "ak-kubernetes-cluster-13f6afc3f7-cl"
   },
   "targetName": {
-    "value": "ak-kubernetes-cluster-13f6afc3f7-18May-v2"  
+    "value": "ak-kubernetes-cluster-13f6afc3f7-26May"  
   },
   "update.broker.address": {
     "value": "tcp://20.75.195.136:1883"
