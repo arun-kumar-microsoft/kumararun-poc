@@ -34,6 +34,10 @@
     },
     "update.broker.address": {
       "type": "string"
+    },
+    "update.broker.clientID": {
+      "type": "string",
+      "defaultValue": "control-plane"
     }
   },
   "variables": {
@@ -108,6 +112,7 @@
                 "provider": "providers.target.mqtt",
                 "config": {
                   "brokerAddress": "[parameters('update.broker.address')]",
+                  "clientID": "[parameters('update.broker.clientID')]",
                   "requestTopic": "symphony-request",
                   "responseTopic": "symphony-response",
                   "timeoutSeconds": "300"

@@ -18,7 +18,7 @@
     "value": "ak-kumararun-k8s-may27-cl"
   },
   "targetName": {
-    "value": "ak-kumararun-k8s-may27-v1"  
+    "value": "ak-kumararun-k8s-may27-v2"  
   },
   "update.broker.address": {
     "value": "tcp://52.142.32.236:1883"
