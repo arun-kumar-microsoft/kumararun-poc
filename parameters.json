@@ -1,26 +1,26 @@
 {
   "clusterName": {
-    "value": "kubernetes-cluster-13f6afc3f7"
+    "value": "kumararun-k8s-may27"
   },
   "clusterLocation": {
     "value": "eastus"  
   },
   "symphonyName": {
-    "value": "symphony-3"
+    "value": "symphony-1"
   },
   "installNamespace": {
     "value": "default"
   },
   "customLocationName": {
-    "value": "ak-kubernetes-cluster-13f6afc3f7-cl"
+    "value": "ak-kumararun-k8s-may27-cl"
   },
   "customLocationNamespace": {
-    "value": "ak-kubernetes-cluster-13f6afc3f7-cl"
+    "value": "ak-kumararun-k8s-may27-cl"
   },
   "targetName": {
-    "value": "ak-kubernetes-cluster-13f6afc3f7-26May"  
+    "value": "ak-kumararun-k8s-may27-v1"  
   },
   "update.broker.address": {
-    "value": "tcp://20.75.195.136:1883"
+    "value": "tcp://52.142.32.236:1883"
   }
 }
