@@ -1,6 +1,6 @@
 {
   "clusterName": {
-    "value": "ak-k8s-may28"
+    "value": "ak-k8s-may30"
   },
   "clusterLocation": {
     "value": "eastus"  
@@ -12,15 +12,15 @@
     "value": "default"
   },
   "customLocationName": {
-    "value": "ak-k8s-may28-cl"
+    "value": "ak-k8s-may30-cl"
   },
   "customLocationNamespace": {
-    "value": "ak-k8s-may28-cl"
+    "value": "ak-k8s-may30-cl"
   },
   "targetName": {
-    "value": "ak-k8s-may28-v1"  
+    "value": "ak-k8s-may30-v1"  
   },
   "update.broker.address": {
-    "value": "tcp://20.81.113.172:1883"
+    "value": "tcp://20.253.55.226:1883"
   }
 }
