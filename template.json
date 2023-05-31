@@ -29,6 +29,13 @@
       "type": "string",
       "defaultValue": "symphony-custom-location"
     },
+    "update.gate.operationId": {
+      "type": "string"
+    },
+    "update.gate.operationName": {
+      "type": "string",
+      "defaultValue": "Update"
+    },
     "customLocationNamespace": {
       "type": "string"
     },
@@ -43,7 +50,9 @@
   "variables": {
     "customLocationName": "[parameters('customLocationName')]",
     "clusterId": "[resourceId('Microsoft.Kubernetes/connectedClusters', parameters('clusterName'))]",
-    "syncRuleName": "[concat(parameters('symphonyName'), '-sync')]"
+    "syncRuleName": "[concat(parameters('symphonyName'), '-sync')]",
+    "targetGateName": "[concat(parameters('targetName'), '-gate')]",
+    "targetGateRequest": "[concat('{\"id\": \"', parameters('update.gate.operationId'), '\", \"operation\": \"', parameters('update.gate.operationName'), '\", \"target\": \"', parameters('targetName'), '\"}')]"
   },
   "resources": [
     {
@@ -96,17 +105,33 @@
       "properties": {
         "components": [
           {
+            "name": "[variables('targetGateName')]",
+            "type": "gate",
+            "properties": {
+              "http.url": "https://ak-approvalgate.azure-api.net/approval/",
+              "http.method": "POST",
+              "http.body": "[variables('targetGateRequest')]"
+            }
+          },
+          {
             "name": "[parameters('targetName')]",
             "type": "update",
             "properties": {
               "app.package": "update",
               "version": "10.2307.0.1"
-            }
+            },
+            "dependencies": [
+              "[variables('targetGateName')]"
+            ]
           }
         ],
         "topologies": [
           {
             "bindings": [
+              {
+                "role": "gate",
+                "provider": "providers.target.http"
+              },
               {
                 "role": "update",
                 "provider": "providers.target.mqtt",
@@ -144,5 +169,11 @@
         "[variables('customLocationName')]"
       ]
     }
-  ]
+  ],
+  "outputs": {
+    "operation": {
+      "type": "string",
+      "value": "[variables('targetGateRequest')]"
+    }
+  }
 }

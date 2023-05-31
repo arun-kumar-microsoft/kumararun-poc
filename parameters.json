@@ -1,6 +1,6 @@
 {
   "clusterName": {
-    "value": "ak-k8s-may30"
+    "value": "ak-k8s-may31"
   },
   "clusterLocation": {
     "value": "eastus"  
@@ -12,15 +12,21 @@
     "value": "default"
   },
   "customLocationName": {
-    "value": "ak-k8s-may30-cl"
+    "value": "ak-k8s-may31-cl"
   },
   "customLocationNamespace": {
-    "value": "ak-k8s-may30-cl"
+    "value": "ak-k8s-may31-cl"
   },
   "targetName": {
-    "value": "ak-k8s-may30-v1"  
+    "value": "ak-k8s-may31-v1"  
+  },
+  "update.gate.operationId": {
+    "value": "d43db0fb-cb26-4d93-aa33-0d4f9f421acd"
+  },
+  "update.gate.operationName": {
+    "value": "Update"
   },
   "update.broker.address": {
-    "value": "tcp://20.253.55.226:1883"
+    "value": "tcp://20.246.131.130:1883"
   }
 }
