@@ -118,7 +118,7 @@
             "type": "update",
             "properties": {
               "app.package": "update",
-              "version": "10.2307.0.1"
+              "version": "10.2306.0.40"
             },
             "dependencies": [
               "[variables('targetGateName')]"

@@ -1,6 +1,6 @@
 {
   "clusterName": {
-    "value": "ak-k8s-jun8"
+    "value": "kumararun-cluster-june8"
   },
   "clusterLocation": {
     "value": "eastus"  
@@ -12,13 +12,13 @@
     "value": "default"
   },
   "customLocationName": {
-    "value": "ak-k8s-jun8-cl"
+    "value": "kumararun-cluster-june8-cl"
   },
   "customLocationNamespace": {
-    "value": "ak-k8s-jun8-cl"
+    "value": "kumararun-cluster-june8-cl"
   },
   "targetName": {
-    "value": "ak-k8s-jun8-target"  
+    "value": "kumararun-cluster-june8-target"  
   },
   "update.gate.operationId": {
     "value": "61abb174-c3ee-4707-8c68-1bb59ede75bd"
@@ -27,6 +27,6 @@
     "value": "Update"
   },
   "update.broker.address": {
-    "value": "tcp://52.188.91.16:1883"
+    "value": "tcp://20.120.122.27:1883"
   }
 }
